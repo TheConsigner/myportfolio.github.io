@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(178, 211, 211);/*this is the background color and will be displayed in the situation that the image doesn't load for some reason*/
+    background-image: url(bungalowimage.jpg);/*this image will be displayed if it is available*/
+    background-position: center;
+    background-size: cover;/*this declaration is important as it ensures the image doesn't shrink when the screen is zoomed out or on larger screens.*/
+    background-repeat: repeat-x;
+    overflow-y: auto;
+    max-width: 90%;
+}
+             /*.is a class while # is an id*/
+.pic {
+    float: right;
+    border: 3px burlywood solid;
+    border-radius: 11px;
+    padding: 2px;
+    margin: 30px;
+    max-width: 70%;
+}
+
+.header {
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    border-bottom: 2px red solid;
+    font-size: 1.4em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.first,#h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: hsl(330, 100%, 10%);
+}
+
+.nan {
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#second {
+    font-size: 1.2em;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    list-style: set;
+}
+
+ul li {
+    color: rgb(180, 164, 17);
+    text-transform: capitalize;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+.bottom {
+    text-align: center;
+    font-size: 2.2em;
+    text-transform: capitalize;
+    color: rgb(15, 150, 132);
+    border: 2.1px gold solid;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+    background-image: url(alley.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.6789;
+    scroll-behavior: smooth;
+}
+
+.social a {
+    position: relative;
+    border: 0.001px hsla(0, 0%, 0%, 0.027) solid;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#music audio {
+    background-color: rgb(24, 14, 1);
+    background-position: center;
+    border: 1.2px grey solid;
+    border-radius: 13px;
+}
+
+#music p {
+    text-transform: capitalize;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 12px;
+}
+
+#btn {
+    position: relative;
+    float: right;
+    background-color: greenyellow;
+    margin: 15PX;
+    margin-right: 2px;
+    box-shadow: 2PX 3PX 3PX rgb(58, 238, 193);
+    cursor: pointer;
+}
+
+#bnt {
+    background-color: darkorange;
+    margin: 15px;
+    box-shadow: 2PX 3PX 3PX rgb(91, 58, 238);
+    cursor: pointer;
+}

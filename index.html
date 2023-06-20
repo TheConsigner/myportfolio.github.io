@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng"> <!--the language of choice is english-->
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
+        <title> Portfolio</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <header class="header"> my website </header>
+        <div class="pic"><img src="mine.jpg" height="65px" width="65px"></div>
+        <p class="first"><h1 id="h1">About myself</h1> <br><span class="nan">
+        I am Abraham Winston, an electrical engineering student at the Jomo Kenyatta University of agriculture and technology. 
+        i was born in October of 2002. I am 20 at the time of publishing my first public code written website.</span>
+        </p>
+
+        <div id="second"> <h2> <em> Hobbies </em> </h2> </div> <hr>
+        <ul>       <!--there is a line above this section of the page-->
+            <li>coding</li>
+            <li>reading</li>
+            <li>making electronic projects</li>
+            <li>playing chess</li>
+            <li>cooking</li>
+            <li>writing short articles</li>
+            <li>listening to music</li>
+            <li>watching movies, short films, videos and documentaries</li>
+            <li>bike riding</li>
+            <li>website design and development</li>
+            <li>playing sudoku</li>
+            <li>brainstorming science ideas</li>
+        </ul>
+
+        <hr>
+
+        <div id="music">
+            <p>song of choice: borns-electric love</p>        
+             <audio controls>
+                <source src="BØRNS - Electric Love (Official Music Video).mp3" type="audio/mp3"><!--music of my choice, -->
+             </audio>
+        </div>
+
+        <div class="social">
+            <h1 class="bottom">my socials</h1><!--in the following lines of code, the img tag is nested within the anchor tag to make the image a hyperlink rather than using plain text to link to an external url. the alternate text attribute is not necessary but it is good practice to put it.-->
+            <a href="https://instagram.com/engine_abra?igshid=ZGUzMzM3NWJiOQ==" target="_blank"><img src="iglogo.jpeg" height="50px" width="50px" alt="instagram"></a>
+            <a href="https://twitter.com/AbrahamWinston3?s=09" target="_blank"><img src="Twitter logo.jpeg" height="50px" width="50px" alt="twitter" ></a>
+            <a href="https://www.facebook.com/abraham.ogoch.9?mibextid=ZbWKwL" target="_blank"><img src="fblogo.png" height="50px" width="50px" alt="facebook" ></a>
+            <a href="https://www.tiktok.com/@abrahamogoch?_t=8dIIPc5t27p&_r=1" target="_blank"><img src="tiktoklogo.png" height="50px" width="50px" alt="tiktok" ></a>
+            <a href=" https://narratingmessenger.wordpress.com/2023/06/14/the-journey-beyond/" target="_blank"><img src="wordpress.jpeg" height="50px" width="50px" alt="website" ></a>
+            <a href="mailto:abrahamwinston254@gmail.com" target="_blank"><img src="gmaillogo.png" height="50px" width="50px" alt="mail"></a>
+        </div>
+        
+        <button type="button" id="bnt" value="button" onclick="window.alert('This is a simple example of a website. Some features might not work correctly depending on your device and browser. Make sure javascript is enabled or supported.')">Press </button><!--button that displays a message when clicked-->
+        <button type="button" id="btn" value="button" onclick="window.print()"> print </button><!--button that prints the page when clicked-->
+    </body>
+</html>
